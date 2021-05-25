@@ -10,7 +10,7 @@ function App () {
     return (
         <div>
             <Navbar />
-            <BodyIndex />
+            {/* <BodyIndex /> */}
             <MissionPage MISSIONARY={MISSIONARY} PROJECT={PROJECT}/>
             <Footer />
         </div>
