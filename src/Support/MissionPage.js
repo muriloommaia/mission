@@ -13,7 +13,7 @@ import React from 'react';
 
     return (
       <div className="container-fluid">
-        <div className="space"></div>
+        {/* <div className="space"></div> */}
         <div className="bg-4" id="missionarios"></div>
         <div className="text-center">
           <div className="rows">
@@ -83,13 +83,13 @@ import React from 'react';
 
       {/* PROJETOS */}
       <div id="projetos"></div>
-      <div className="text-center">
-       <div className="bg-light pt-2">
+      <div className="text-center bg-light">
+        <div className="bg-light pt-2">
             <hr />
             <h1 className="title-grid pt-2 pb-2">Nossos Projetos</h1>
             <hr />
-      </div>
-        <div className="d-grid  justify-content-center margin pb-4 mt-2">
+        </div>
+        <div className="d-grid bg-light justify-content-center margin pb-4 mt-2">
                 {PROJECT.map((item,idx)=>{
                   return (<>
                     <div className="cards rounded-3 bg-card border-dark">
@@ -136,9 +136,9 @@ import React from 'react';
                   )
                 })}
               </div>
+      <div className="space"></div>
       </div>
     
-      <div className="space"></div>
 
     
     

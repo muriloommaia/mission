@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital@1&display=swap');
 /* nav */
 
 .navbar {
@@ -10,6 +11,7 @@
     width: 100vw;
     opacity: 0.95;
     z-index: 2;
+    height: 75px;
 }
 .bg-light-nav {
     background-color: #f8f9faec;
@@ -27,7 +29,7 @@
     margin-top: -5px;
 }
 .space-nav{
-    margin-left: 25%;
+    margin-left: 15%;
 
 }
 .space {
@@ -36,15 +38,43 @@
 
 /* section 1 */
 .logo img {
-    width: 70vw;
+    width: 25vw;
     height: auto;
+}
+.logo{
+    align-items: center;
+    text-align: center;
     margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding: 0.5em;
+    font-family: 'Cormorant', serif;
+    font-size: 7vw;
+    line-height: 0.9em;
+    /* text-decoration:underline 2px; */
+    color: white;
+    height: 28vw;
+    width: 90vw;
+}
+.slogan p{
+    margin-left: 10%;
+    margin-bottom: 0.2rem !important;
+}
+.fontSlogan {
+    font-family: 'Cormorant', serif;
+
 }
  .bg-1 {
     background: url(./imgs/bg2.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    padding:3rem;
+    padding:3rem 3rem 0rem 3rem;
+
+ }
+ @media (min-width: 1000px) {
+     .bg-1 {
+         padding: 6rem;
+     }
+     
  }
  /* sessão padrão*/
  .sec-def {
@@ -57,13 +87,22 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 90%;
-    background-color: #f8f9fad2;
+    background-color: #3f3f3f1a;
 }
 
+.bg-box {
+    background-color: #f8f9faf8;
+}
+ .bg-text {
+    background-color: #f8f9fa44;
+
+ }
 .bg-full {
-    background: url(./imgs/bg3.jpg);
+    background-color: #f8f9fa;
+    /* background: linear-gradient(to bottom, rgb(63, 63, 63) 0%, rgb(97, 96, 96) 8%, grey 15%, #f8f9fa 80%); */
+    /* background: url(./imgs/bg3.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 300vh;
+    background-size: 100vw 300vh; */
     opacity: 90%;
  }
 /* cards */
