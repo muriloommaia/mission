@@ -109,6 +109,23 @@ const PROJECT = [{
     img: require('./fotos/CAPELANIA.PNG').default
 
 },
+{
+    name: "CONEXION",
+    local: "Campo Grande-MS",
+    email: "s/e",
+    resumo: `O projeto conexion justifica-se em primeiro lugar, pelo
+    deslocamento massivo de familias refugiados e
+    imigrantes ao país do Brasil,
+    especificamente em Campo
+    Grande MS, considerados os
+    refugiados em extrema
+    vulnerabilidade, ficam alvos
+    fáceis de exploração laborar
+    sexual, tráfico de crianças etc.`,
+    link: require('./pages/conexion.pdf').default,
+    img: require('./fotos/conexion.PNG').default
+
+},
 
 ]
 

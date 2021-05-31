@@ -12,19 +12,20 @@ import {
     // Link
   } from "react-router-dom";
 
+
 function App () {
     return (
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/" exact>
+                <Route path="/" exact >
                     <BodyIndex />
                 </Route>
                 <Route path="/missoes">
                     <MissionPage MISSIONARY={MISSIONARY} PROJECT={PROJECT}/>
                 </Route>
-            </Switch>
             <Footer />
+            </Switch>
         </Router>
     )
 }

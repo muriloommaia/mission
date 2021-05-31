@@ -25,34 +25,7 @@ function BodyIndex () {
                         </cite>
                 <hr />
             </div>
-            <div className="d-flex justify-content-center align-items-center sec-def pt-3">
-                <div className="bg-2 rounded-3 d-flex justify-content-center align-items-center animate__animated animate__flipInX">
-                    <div className="box-one border border-dark p-3 m-3 bg-box rounded-3">
-                        <p className="h2 fontSlogan fs-1 fw-bolder text-center">Nossa Visão</p>
-                        <p className="paragrafo fs-5 mt-4 text-center">
-                        <strong>Nossa visão </strong> é tornar a Primeira Batista uma igreja modelo, envolvida em Missões Locais, Estaduais, Nacionais e Mundiais 
-                        fazendo diferença no cenário Batista e evangélico brasileiro. Tonar nossos missionários conhecidos pela igreja em nível pessoal, 
-                        envolvendo a igreja na sua vida, ministério e campo missionário. <br />
-                        Somos o Ministério de Missões. <strong>Nossa razão </strong>é mater acesa e ampliar a visão missionária da igreja. Temos como missão cuidar da 
-                        participação missionária da igreja em termos de Jerusalém, Judéia, Samaria e confins da terra. Existimos para viabilizar a adoção e 
-                        manutenção das famílias missionárias, através do processo de personalização missionária. <br />
-                        <strong>Nosso propósito </strong> é administriar a OMF (Oferta Missionária de Fé)bem como outras ofertas e participações missionárias. 
-                        <strong> Acreditamos </strong> que é tarefa da nossa geração proclamar a salvação ao mundo sem Cristo. Atuamos na mobilização da igreja 
-                        para o cumprimento da sua vocação missionária, sempre subordinados ao colégio pastoral e a Assembleia da igreja. <br />
-                        <cite>O que queremos? Que o Ministério possa compreender e traduzir o sentimento missionário da igreja em termos práticos.</cite>
-                        
-                        </p>
-                        <a className="d-flex paragrafo fs-5 justify-content-end" href="#sonhos">Conheça nossas metas</a>
-                    </div>
-                </div>
-            </div>
-            <div className="text-center bg-transparent paragrafo fs-3">
-                <hr className="mt-0" />
-                <cite className="d-flex text-center">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo 
-                        estão atravessando os mesmos sofrimentos <br />(1 Pedro 5:9)
-                        </cite>
-                <hr />
-            </div>
+            
                 <div className="bg-transparent text-center">
                 <hr />
                 <h1 className="title-grid pt-2 pb-2">Como posso contribuir?</h1>
@@ -90,10 +63,39 @@ function BodyIndex () {
                     </div>
                 </div>
             </div>
+            <div className="text-center bg-transparent paragrafo fs-3">
+                <hr className="mt-0" />
+                <cite className="d-flex text-center">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo 
+                        estão atravessando os mesmos sofrimentos <br />(1 Pedro 5:9)
+                        </cite>
+                <hr />
+            </div>
         </div>
 
     <div  className="bg5">
-        <div id="sonhos" className="space"></div>
+            <div className="space"></div>
+            <div className="d-flex justify-content-center align-items-center sec-def pt-3">
+                <div className="bg-2 rounded-3 d-flex justify-content-center align-items-center animate__animated animate__flipInX">
+                    <div className="box-one border border-dark p-3 m-3 bg-box rounded-3">
+                        <p className="h2 fontSlogan fs-1 fw-bolder text-center">Nossa Visão</p>
+                        <p className="paragrafo fs-5 mt-4 text-center">
+                        <strong>Nossa visão </strong> é tornar a Primeira Batista uma igreja modelo, envolvida em Missões Locais, Estaduais, Nacionais e Mundiais 
+                        fazendo diferença no cenário Batista e evangélico brasileiro. Tonar nossos missionários conhecidos pela igreja em nível pessoal, 
+                        envolvendo a igreja na sua vida, ministério e campo missionário. <br />
+                        Somos o Ministério de Missões. <strong>Nossa razão </strong>é mater acesa e ampliar a visão missionária da igreja. Temos como missão cuidar da 
+                        participação missionária da igreja em termos de Jerusalém, Judéia, Samaria e confins da terra. Existimos para viabilizar a adoção e 
+                        manutenção das famílias missionárias, através do processo de personalização missionária. <br />
+                        <strong>Nosso propósito </strong> é administriar a OMF (Oferta Missionária de Fé)bem como outras ofertas e participações missionárias. 
+                        <strong> Acreditamos </strong> que é tarefa da nossa geração proclamar a salvação ao mundo sem Cristo. Atuamos na mobilização da igreja 
+                        para o cumprimento da sua vocação missionária, sempre subordinados ao colégio pastoral e a Assembleia da igreja. <br />
+                        <cite>O que queremos? Que o Ministério possa compreender e traduzir o sentimento missionário da igreja em termos práticos.</cite>
+                        
+                        </p>
+                        <a className="d-flex paragrafo fs-5 justify-content-end" href="#sonhos">Conheça nossas metas</a>
+                    </div>
+                </div>
+            </div>
+        <div id="sonhos"></div>
         <div className="d-flex justify-content-center align-items-center">
             <div className="bg-2 rounded-3 d-flex justify-content-center align-items-center">
                 <div className="box-two border border-dark p-3 m-3 bg-light rounded-3">

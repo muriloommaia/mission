@@ -93,7 +93,7 @@ import React from 'react';
                 {PROJECT.map((item,idx)=>{
                   return (<>
                     <div className="cards rounded-3 bg-card border-dark">
-                      <img className="border border-2 border-secondary"src={PROJECT[idx].img} alt={PROJECT[idx].name}/>
+                      <img className="border border-2 border-secondary"src={PROJECT[idx].img} alt={PROJECT[idx].name} width="200px" height="200px" />
                       <h4 className="paragrafo fs-3 mt-2 fw-bold">{PROJECT[idx].name}</h4>
                       {/* <p className="paragrafo mt-4 mb-0 fs-5"><strong>Local de atuação: </strong></p>
                       <p className="paragrafo mt-0">{MISSIONARY[idx].local}</p> */}

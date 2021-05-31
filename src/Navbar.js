@@ -2,6 +2,7 @@ import './style.css'
 import LogoOnly from './imgs/logo-only.png';
 import manual from './Support/pages/manual do lider de missoes 2021 MIOLO.pdf'
 import { Link } from 'react-router-dom';
+import ScrollToTop from './Support/ScrollToTop';
 
 
 function Navbar () {
@@ -9,7 +10,7 @@ function Navbar () {
         <div className="navbar navbar-expand-lg navbar-light bg-light-nav ">
         <div className="container-fluid d-flex justify-content-between  bg-light-nav">
             <div className="m-2">
-            <Link className="navbar-brand align-middle" to="/">
+            <Link className="navbar-brand align-middle" to="/" href="#sonhos"onClick={ScrollToTop}>
                 <strong>DDM</strong>
                 <img  src={LogoOnly} alt="" width="35" height="35"/>
             </Link>
@@ -24,16 +25,16 @@ function Navbar () {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-1 h5">
                 <li className="nav-item">
-                    <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                    <Link class="nav-link active" aria-current="page" to="/" onClick={ScrollToTop}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/missoes">
+                    <Link className="nav-link" to="/missoes" onClick={ScrollToTop}>
                       Missionários e Projetos
                     </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a class="nav-link" href="#sonhos">Sonhos</a>
-                </li>
+                </li> */}
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#doar" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Recursos
@@ -42,6 +43,7 @@ function Navbar () {
                 <li><a className="dropdown-item" target="_blank" href="http://www.1b.org.br" rel="noreferrer">Primeira Batista - MS</a></li>
                   <li><hr className="dropdown-divider"/></li>
                   <li><a className="dropdown-item" href="#doar">Cartas Missionárias</a></li>
+                  <li><a className="dropdown-item" href="#doar">Ferramentas Missionárias</a></li>
                   <li><a className="dropdown-item" target="_blank" href={manual} rel="noreferrer">Manual do Missionário</a></li>
                 </ul>
               </li>
