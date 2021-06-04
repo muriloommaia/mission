@@ -6,8 +6,10 @@ function Footer () {
         <div className="footer">
             <div className="d-flex justify-content-center align-items-center color-footer">
                 <div>
-                    <h3 className="title color-footer">Fale Conosco</h3>
-                    <p className="footer-text m-0 text-center">contato: |xx| x xxxx-xxxx</p>
+                    <h3 className="title color-footer text-center">Fale Conosco</h3>
+                    <p className="footer-text m-0 text-center">
+                        contato: <br />
+                        |67| 9 9974-8261 || djalma@1b.org.br</p>
                     <div className="d-flex justify-content-between">
                         <a href="#as"><i className="fab fa-whatsapp"></i></a>
                         <a href="#as"><i className="fab fa-instagram"></i></a>
