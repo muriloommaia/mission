@@ -18,11 +18,11 @@ function App () {
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/" exact >
-                    <BodyIndex />
-                </Route>
                 <Route path="/missoes">
                     <MissionPage MISSIONARY={MISSIONARY} PROJECT={PROJECT}/>
+                </Route>
+                <Route path="/">
+                    <BodyIndex />
                 </Route>
             </Switch>
             <Footer />
