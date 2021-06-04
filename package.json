@@ -18,7 +18,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "homepage": "https://github.com/muriloommaia/",
+    "homepage": "https://github.com/muriloommaia/mission",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
