@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/mission/static/css/main.035af308.chunk.css",
-    "main.js": "/mission/static/js/main.d587d433.chunk.js",
-    "main.js.map": "/mission/static/js/main.d587d433.chunk.js.map",
-    "runtime-main.js": "/mission/static/js/runtime-main.e818cb45.js",
-    "runtime-main.js.map": "/mission/static/js/runtime-main.e818cb45.js.map",
+    "main.js": "/mission/static/js/main.1abb6229.chunk.js",
+    "main.js.map": "/mission/static/js/main.1abb6229.chunk.js.map",
+    "runtime-main.js": "/mission/static/js/runtime-main.41e71452.js",
+    "runtime-main.js.map": "/mission/static/js/runtime-main.41e71452.js.map",
     "static/css/2.61b4cb56.chunk.css": "/mission/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.fa85a5bb.chunk.js": "/mission/static/js/2.fa85a5bb.chunk.js",
-    "static/js/2.fa85a5bb.chunk.js.map": "/mission/static/js/2.fa85a5bb.chunk.js.map",
-    "static/js/3.c3277927.chunk.js": "/mission/static/js/3.c3277927.chunk.js",
-    "static/js/3.c3277927.chunk.js.map": "/mission/static/js/3.c3277927.chunk.js.map",
+    "static/js/2.71044c3f.chunk.js": "/mission/static/js/2.71044c3f.chunk.js",
+    "static/js/2.71044c3f.chunk.js.map": "/mission/static/js/2.71044c3f.chunk.js.map",
+    "static/js/3.6e94af75.chunk.js": "/mission/static/js/3.6e94af75.chunk.js",
+    "static/js/3.6e94af75.chunk.js.map": "/mission/static/js/3.6e94af75.chunk.js.map",
     "index.html": "/mission/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/mission/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.035af308.chunk.css.map": "/mission/static/css/main.035af308.chunk.css.map",
-    "static/js/2.fa85a5bb.chunk.js.LICENSE.txt": "/mission/static/js/2.fa85a5bb.chunk.js.LICENSE.txt",
+    "static/js/2.71044c3f.chunk.js.LICENSE.txt": "/mission/static/js/2.71044c3f.chunk.js.LICENSE.txt",
     "static/media/Afonsil-e-dalva.png": "/mission/static/media/Afonsil-e-dalva.23391a77.png",
     "static/media/CAPELANIA.PNG": "/mission/static/media/CAPELANIA.937bff8a.PNG",
     "static/media/Cidinha.png": "/mission/static/media/Cidinha.c46cf13b.png",
@@ -61,7 +61,7 @@
     "static/media/junior-cintia.png": "/mission/static/media/junior-cintia.1ca35cac.png",
     "static/media/logo-only.0a911fb1.png": "/mission/static/media/logo-only.0a911fb1.png",
     "static/media/logotipo_lideres_de_missoes-removebg-preview.png": "/mission/static/media/logotipo_lideres_de_missoes-removebg-preview.15e8ea3d.png",
-    "static/media/maio-21-djalma.pdf": "/mission/static/media/maio-21-djalma.61e927a7.pdf",
+    "static/media/maio21djalma.pdf": "/mission/static/media/maio21djalma.61e927a7.pdf",
     "static/media/manual do lider de missoes 2021 MIOLO.5ea742c1.pdf": "/mission/static/media/manual do lider de missoes 2021 MIOLO.5ea742c1.pdf",
     "static/media/marcio e jussa - página missionários.pdf": "/mission/static/media/marcio e jussa - página missionários.b62cbc7d.pdf",
     "static/media/marcio-jussa.png": "/mission/static/media/marcio-jussa.28a17879.png",
@@ -89,16 +89,17 @@
     "static/media/ubirajara-barbara.png": "/mission/static/media/ubirajara-barbara.ebd1de00.png",
     "static/media/valdir e nilciane alcantara - página missionários.pdf": "/mission/static/media/valdir e nilciane alcantara - página missionários.013db4c6.pdf",
     "static/media/valdir-nil.png": "/mission/static/media/valdir-nil.12836602.png",
+    "static/media/variables.less": "/mission/static/media/variables.92031ccc.less",
     "static/media/vinicius e andrea - página-missionários.pdf": "/mission/static/media/vinicius e andrea - página-missionários.ede5c574.pdf",
     "static/media/vinicius-andrea.png": "/mission/static/media/vinicius-andrea.d2c6d0cd.png",
     "static/media/william-marcia-carrilho-página-missionários.pdf.pdf": "/mission/static/media/william-marcia-carrilho-página-missionários.pdf.263b3d41.pdf",
     "static/media/william-marcia.png": "/mission/static/media/william-marcia.274f7974.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e818cb45.js",
+    "static/js/runtime-main.41e71452.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.fa85a5bb.chunk.js",
+    "static/js/2.71044c3f.chunk.js",
     "static/css/main.035af308.chunk.css",
-    "static/js/main.d587d433.chunk.js"
+    "static/js/main.1abb6229.chunk.js"
   ]
 }
