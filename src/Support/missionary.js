@@ -25,8 +25,8 @@ const MISSIONARY = [{
     Conselho Missionário. É responsável pelos
     candidatos ao campo missionário da Igreja.`,
     link: require('./pages/djalma-e-sandra-página-missionários.pdf').default,
-    img: require('./fotos/djalma.png').default
-
+    img: require('./fotos/djalma.png').default,
+    letter: [require('./letters/maio21djalma.pdf').default]
 },
 {
     name: "Maria Aparecida (CIDINHA)",

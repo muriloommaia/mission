@@ -1,5 +1,6 @@
 import '../style.css'
 import React from 'react';
+import MissionLetter from './MissionLetters'
 
   function MissionPage ({MISSIONARY,PROJECT}) {
     const [Cards, SetCards] = React.useState(MISSIONARY)
@@ -54,9 +55,10 @@ import React from 'react';
                           </div>
                           <div className="modal-body">
                             <p className="paragrafo fs-5">{Cards[idx].resumo}</p>
+                            <MissionLetter idx={idx} Cards = {Cards} />
                             <hr />
                             <p className="paragrafo mt-0 mb-0"><strong>Local de atuação: </strong></p>
-                            <p className="paragrafo fs-5 mt-0">{MISSIONARY[idx].local}</p>
+                            <p className="paragrafo fs-5 mt-0">{Cards[idx].local}</p>
                             <hr />
                             <p className="paragrafo mt-0 mb-0">Para conhecer os pedidos de oração clique abaixo!</p>
                           </div>
