@@ -24,8 +24,8 @@ function App () {
                 <Route path="/missoes">
                     <MissionPage MISSIONARY={MISSIONARY} PROJECT={PROJECT}/>
                 </Route>
-            <Footer />
             </Switch>
+            <Footer />
         </Router>
     )
 }
