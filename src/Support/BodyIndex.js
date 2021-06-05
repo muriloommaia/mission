@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import Logo from '../imgs/logo-only.png';
+import ScrollToTop from './ScrollToTop';
 
 function BodyIndex () {
     return (
@@ -40,11 +41,11 @@ function BodyIndex () {
                                     <p className="h2 fontSlogan fw-bolder">Doe para a Missões</p>
                                     <p className="paragrafo fs-5 mt-4">
                                         Trabalhamos no sustento e no cuidado de mais de 30 famílias missionárias, todos estes recursos são 
-                                        provenientes da nossa Oferta Missionária de Fé (OMF). Você pode fazer parte dessa obra doando para missões, no campo "Doar para Missões" 
-                                        localizado no menu superior, <strong>conheça também as famílias missionárias </strong>  
-                                         clicando abaixo.  
+                                        provenientes da nossa Oferta Missionária de Fé (OMF). <br />
+                                        <strong>Conheça também as famílias missionárias </strong>  <br />
+                                         em Missionários e Projetos. Faça sua doação clicando abaixo!
                                     </p>
-                                    <Link className="d-flex paragrafo fs-5 justify-content-end" to="/missoes">Conheça nossos missionários</Link>
+                                    <a className="d-flex paragrafo fs-5 justify-content-end" target="_blank" href="https://1b.org.br/contribua">Doe para missões</a>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6">
@@ -56,7 +57,7 @@ function BodyIndex () {
                                         possam resistir, permanecendo firme na fé. <strong>Conheça por quem orar </strong>  
                                          clicando abaixo.
                                     </p>
-                                    <Link className="d-flex paragrafo fs-5 justify-content-end" to="/missoes">Por quem orar?</Link>
+                                    <Link className="d-flex paragrafo fs-5 justify-content-end" onClick={ScrollToTop} to="/missoes">Por quem orar?</Link>
                                 </div>
                             </div>
                         </div>

@@ -29,16 +29,16 @@ function Footer () {
                         <div className="copyright-menu">
                             <ul>
                                 <li>
-                                    <a href="#as">Home</a>
+                                    <a href="https://github.com/muriloommaia">Projects</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#as">Terms</a>
                                 </li>
                                 <li>
                                     <a href="#as">Privacy Policy</a>
-                                </li>
+                                </li> */}
                                 <li>
-                                    <a href="#as">Contact</a>
+                                    <a href="https://wa.me/5491125848669">Contact</a>
                                 </li>
                             </ul>
                         </div>
