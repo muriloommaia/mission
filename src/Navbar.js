@@ -43,7 +43,7 @@ function Navbar () {
                 <li><a className="dropdown-item" target="_blank" href="http://www.1b.org.br" rel="noreferrer">Primeira Batista - MS</a></li>
                   <li><hr className="dropdown-divider"/></li>
                   {/* <li><a className="dropdown-item" href="#doar">Cartas Missionárias</a></li> */}
-                  <li><a className="dropdown-item" href="#doar">Ferramentas Missionárias</a></li>
+                  <li><Link className="dropdown-item" to="/tools">Ferramentas Missionárias</Link></li>
                   <li><a className="dropdown-item" target="_blank" href={manual} rel="noreferrer">Manual do Missionário</a></li>
                 </ul>
               </li>

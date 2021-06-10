@@ -301,3 +301,8 @@ hr {
     border: 2px solid rgba(114, 114, 114, 0.384) !important; 
     padding-top: 1rem;
 }
+
+/* MISSION TOOLS */
+.height {
+    height: 25vh;
+}

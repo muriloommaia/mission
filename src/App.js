@@ -11,6 +11,7 @@ import {
     Route,
     // Link
   } from "react-router-dom";
+import MissionTools from './Support/MissionTools'
 
 
 function App () {
@@ -20,6 +21,9 @@ function App () {
             <Switch>
                 <Route path="/missoes">
                     <MissionPage MISSIONARY={MISSIONARY} PROJECT={PROJECT}/>
+                </Route>
+                <Route path="/tools">
+                    <MissionTools />
                 </Route>
                 <Route path="/">
                     <BodyIndex />
