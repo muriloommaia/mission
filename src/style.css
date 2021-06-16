@@ -290,7 +290,7 @@ hr {
 }
 
 .scrolls {
-    overflow: scroll;
+    overflow: auto;
     height: 120vh;
 
 }

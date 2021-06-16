@@ -91,7 +91,7 @@ import MissionLetter from './MissionLetters'
             <h1 className="title-grid pt-2 pb-2">Nossos Projetos</h1>
             <hr />
         </div>
-        <div className="d-grid bg-light justify-content-center margin pb-4 mt-2">
+        <div className="scrolls d-grid bg-light justify-content-center margin pb-4 mt-2">
                 {PROJECT.map((item,idx)=>{
                   return (<>
                     <div className="cards rounded-3 bg-card border-dark">
