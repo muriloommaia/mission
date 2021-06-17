@@ -1,7 +1,7 @@
 const PROJECT = [{
-    name: "PROJETO IDE",
-    local: "http://institutoide.org.br",
-    resumo: `O Projeto Ide, trabalha com Assistência Social com
+  name: "PROJETO IDE",
+  local: "http://institutoide.org.br",
+  resumo: `O Projeto Ide, trabalha com Assistência Social com
     Crianças, adolescentes e famílias das periferias de
     Campo Grande, representada pelos Missionários
     Manoel e Krishna.
@@ -16,15 +16,15 @@ const PROJECT = [{
     Princesa nos bairros Lajeado, Carlota e cidade de
     Cassilândia assistindo mais de 200 meninas e
     adolescente.`,
-    link: require('./pages/ide-página-missionários.pdf').default,
-    img: require('./fotos/ide.PNG').default
+  link: require('./pages/ide-página-missionários.pdf').default,
+  img: require('./fotos/ide.PNG').default
 
 },
 {
-    name: "IMPACTO AVENTURAS",
-    local: "Campo Grande - MS",
-    email: "impactoaventuras@hotmail.com",
-    resumo: `O Projeto Impacto Aventuras, tem como objetivo fazer
+  name: "IMPACTO AVENTURAS",
+  local: "Campo Grande - MS",
+  email: "impactoaventuras@hotmail.com",
+  resumo: `O Projeto Impacto Aventuras, tem como objetivo fazer
     Jesus conhecido através do esporte, esportes radicais,
     jogos, dinâmicas, palestras e artes, levando a
     mensagem positiva, visando os valores das crianças e
@@ -39,15 +39,15 @@ const PROJECT = [{
     Apresentadores, Teatro, Pantomima, Encenações e
     Palestras Temáticas.
     Responsável: Fernando Campos`,
-    link: require('./pages/impacto-página-missionários.pdf').default,
-    img: require('./fotos/impacto.PNG').default
+  link: require('./pages/impacto-página-missionários.pdf').default,
+  img: require('./fotos/impacto.PNG').default
 
 },
 {
-    name: "PROJETO NOVA",
-    local: "http://projetonova.com/",
-    email: "viviane@1b.org.br",
-    resumo: `O Projeto Nova é um programa social que atende
+  name: "PROJETO NOVA",
+  local: "http://projetonova.com/",
+  email: "viviane@1b.org.br",
+  resumo: `O Projeto Nova é um programa social que atende
     famílias vitimas do violência e exploração sexual em
     Campo Grande, MS. Sobreviventes, sem visibilidade,
     sem voz na sociedade, sem força para crescer, foram
@@ -61,14 +61,14 @@ const PROJECT = [{
     de prevenção. Reinserir as vítimas sobreviventes com
     apoio psicossocial oportunizando a qualidade de vida
     em família e na integralidade da pessoa humana.`,
-    link: require('./pages/projeto-nova-página-missionários.pdf').default,
-    img: require('./fotos/NOVA.PNG').default
+  link: require('./pages/projeto-nova-página-missionários.pdf').default,
+  img: require('./fotos/NOVA.PNG').default
 },
 {
-    name: "EQUIPE DA ESPERANÇA",
-    local: "http://www.equipedaesperanca.wordpress.com",
-    email: "equipedaesperanca@hotmail.com",
-    resumo: `A Equipe Esperança tem como objetivo contribuir com
+  name: "EQUIPE DA ESPERANÇA",
+  local: "http://www.equipedaesperanca.wordpress.com",
+  email: "equipedaesperanca@hotmail.com",
+  resumo: `A Equipe Esperança tem como objetivo contribuir com
     os profissionais da instituição no cuidado de pacientes
     internados e seus familiares para o bem estar físico,
     emocional, espiritual e social, interagindo com o
@@ -82,15 +82,15 @@ const PROJECT = [{
     Vida, Criança Morena, Roda da Esperança e Canto
     Cidadão.
     Representada pela Missionária Cláudia Costa.`,
-    link: require('./pages/equipe-esperanca-página-missionários.pdf').default,
-    img: require('./fotos/esperanca.PNG').default
+  link: require('./pages/equipe-esperanca-página-missionários.pdf').default,
+  img: require('./fotos/esperanca.PNG').default
 
 },
 {
-    name: "CAPELANIA ESCOLAR",
-    local: "Campo Grande-MS",
-    email: "familiaeniosantos@hotmail.com",
-    resumo: `O Projeto Capelania escolar é voltado para o público
+  name: "CAPELANIA ESCOLAR",
+  local: "Campo Grande-MS",
+  email: "familiaeniosantos@hotmail.com",
+  resumo: `O Projeto Capelania escolar é voltado para o público
     dentro das escolas, desde a Educação Infantil ao Ensino
     Médio, modalidades de ensino da rede pública, e
     funcionários e tem como objetivo proporcionar ao
@@ -105,15 +105,15 @@ const PROJECT = [{
     promoção da verdadeira humanidade com orientação
     para a vida, e o incentivo a uma espiritualidade
     saudável.`,
-    link: require('./pages/capelania-escolar-página-missionários.pdf').default,
-    img: require('./fotos/CAPELANIA.PNG').default
+  link: require('./pages/capelania-escolar-página-missionários.pdf').default,
+  img: require('./fotos/CAPELANIA.PNG').default
 
 },
 {
-    name: "CONEXION",
-    local: "Campo Grande-MS",
-    email: "s/e",
-    resumo: `O projeto conexion justifica-se em primeiro lugar, pelo
+  name: "CONEXION",
+  local: "Campo Grande-MS",
+  email: "s/e",
+  resumo: `O projeto conexion justifica-se em primeiro lugar, pelo
     deslocamento massivo de familias refugiados e
     imigrantes ao país do Brasil,
     especificamente em Campo
@@ -122,8 +122,8 @@ const PROJECT = [{
     vulnerabilidade, ficam alvos
     fáceis de exploração laborar
     sexual, tráfico de crianças etc.`,
-    link: require('./pages/conexion.pdf').default,
-    img: require('./fotos/conexion.PNG').default
+  link: require('./pages/conexion.pdf').default,
+  img: require('./fotos/conexion.PNG').default
 
 },
 
