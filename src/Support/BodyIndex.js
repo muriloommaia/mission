@@ -45,7 +45,7 @@ function BodyIndex() {
                       <strong>Conheça também as famílias missionárias </strong>  <br />
                       em Missionários e Projetos. Faça sua doação clicando abaixo!
                     </p>
-                    <a className="d-flex paragrafo fs-5 justify-content-end" target="_blank" href="https://1b.org.br/contribua">Doe para missões</a>
+                    <a className="d-flex paragrafo fs-5 justify-content-end" target="_blank" rel="noreferrer" href="https://1b.org.br/contribua">Doe para missões</a>
                   </div>
                 </div>
                 <div className="col-12 col-sm-6">

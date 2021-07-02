@@ -37,7 +37,7 @@ function MissionPage({ MISSIONARY, PROJECT }) {
             <div className="d-grid  justify-content-center">
               {Cards.map((item, idx) => {
                 return (<>
-                  <div className="cards rounded-3 bg-card">
+                  <div key="{idx}" className="cards rounded-3 bg-card">
                     <img className="border border-2 border-secondary" src={Cards[idx].img} alt={Cards[idx].name} />
                     <h4 className="paragrafo fs-3 mt-2 fw-bold">{Cards[idx].name}</h4>
                     {/* <p className="paragrafo mt-4 mb-0 fs-5"><strong>Local de atuação: </strong></p>
@@ -47,7 +47,7 @@ function MissionPage({ MISSIONARY, PROJECT }) {
                     </button>
                   </div>
 
-                  <div className="modal fade" id={"exampleModal-" + idx} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div className="modal fade" id={"exampleModal-" + idx} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog">
                       <div className="modal-content">
                         <div className="modal-header">
@@ -95,7 +95,7 @@ function MissionPage({ MISSIONARY, PROJECT }) {
         <div className="scrolls d-grid bg-light justify-content-center margin pb-4 mt-2">
           {PROJECT.map((item, idx) => {
             return (<>
-              <div className="cards rounded-3 bg-card border-dark">
+              <div key="{idx}" className="cards rounded-3 bg-card border-dark">
                 <img className="border border-2 border-secondary" src={PROJECT[idx].img} alt={PROJECT[idx].name} width="200px" height="200px" />
                 <h4 className="paragrafo fs-3 mt-2 fw-bold">{PROJECT[idx].name}</h4>
                 {/* <p className="paragrafo mt-4 mb-0 fs-5"><strong>Local de atuação: </strong></p>
@@ -105,7 +105,7 @@ function MissionPage({ MISSIONARY, PROJECT }) {
                 </button>
               </div>
 
-              <div className="modal fade" id={"projectModel-" + idx} tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal fade" id={"projectModel-" + idx} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">

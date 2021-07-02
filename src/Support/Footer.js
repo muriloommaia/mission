@@ -11,7 +11,7 @@ function Footer() {
               contato: <br />
               |67| 9 9974-8261 || djalma@1b.org.br</p>
             <div className="d-flex justify-content-between">
-              <a href="#as"><i class="fab fa-whatsapp"></i></a>
+              <a href="#as"><i className="fab fa-whatsapp"></i></a>
               <a href="#as"><i className="fab fa-instagram"></i></a>
               <a href="#as"><i className="fab fa-facebook"></i></a>
             </div>

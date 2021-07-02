@@ -20,9 +20,9 @@ function MissionTools() {
             <iframe
               width="534" height="300"
               src="https://www.youtube.com/embed/V5vr66EjnMI?list=PLStbt-gW7QOCxeM8BsehaEcKflmtSCgMk"
-              title="YouTube video player" frameborder="0"
+              title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
           <hr />
@@ -40,9 +40,9 @@ function MissionTools() {
             <iframe
               width="534" height="300"
               src="https://www.youtube.com/embed/Dq_bjDP0tT0?list=PLStbt-gW7QOCVpf6eHWQ2jOFdnJdSK6n3"
-              title="YouTube video player" frameborder="0"
+              title="YouTube video player" frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
           <hr />
@@ -60,9 +60,9 @@ function MissionTools() {
               <div className="col-md-5">
                 <iframe
                   width="100%" height="100%" src="https://www.youtube.com/embed/etstEKmz8mw"
-                  title="YouTube video player" frameborder="0"
+                  title="YouTube video player" frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
+                  allowFullScreen>
                 </iframe>
               </div>
               <div className="col-md-7 text-center">
@@ -82,9 +82,9 @@ function MissionTools() {
               <div className="col-md-5">
                 <iframe
                   width="100%" height="100%"
-                  src="https://www.youtube.com/embed/3zFGVz-Id5M" title="YouTube video player" frameborder="0"
+                  src="https://www.youtube.com/embed/3zFGVz-Id5M" title="YouTube video player" frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
+                  allowFullScreen>
                 </iframe>
               </div>
               <div className="col-md-7 text-center">
@@ -105,9 +105,9 @@ function MissionTools() {
               <div className="col-md-5">
                 <iframe
                   width="100%" height="100%"
-                  src="https://www.youtube.com/embed/PMbWl8WK3uM" title="YouTube video player" frameborder="0"
+                  src="https://www.youtube.com/embed/PMbWl8WK3uM" title="YouTube video player" frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
+                  allowFullScreen>
                 </iframe>
               </div>
               <div className="col-md-7 text-center">
