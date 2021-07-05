@@ -14,10 +14,10 @@
 }
 .d-gridTest {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(250px, auto));
   grid-gap: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .testify {
