@@ -62,6 +62,7 @@ function BodyIndex() {
             </div>
           </div>
         </section>
+
         <div className="text-center bg-transparent paragrafo fs-3">
           <hr className="mt-0" />
           <cite className="d-flex text-center pb-4">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo

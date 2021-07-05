@@ -303,7 +303,7 @@ hr {
 .bg-4 {
   background: url(./imgs/bg4.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100vw auto;
   height: 40vw;
   background-position: center;
 }
