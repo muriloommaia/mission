@@ -1,0 +1,25 @@
+.cardsTest {
+  min-width: 30vw;
+  transition: 0.3s;
+  cursor: pointer;
+  justify-self: center;
+  text-align: center;
+  justify-self: center;
+}
+.cardsTest img {
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+
+}
+.d-gridTest {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  grid-gap: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.testify {
+  background-color: whitesmoke;
+}

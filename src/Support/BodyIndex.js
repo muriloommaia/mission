@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-
+import TestifyBlock from './TestifyBlock';   
 import Logo from '../imgs/logo-only.png';
 import ScrollToTop from './ScrollToTop';
 
 function BodyIndex() {
   return (
-    <div id="home">
-      <div className="d-flex justify-content-center sec bg-1">
+    <main id="home">
+      <section className="d-flex justify-content-center sec bg-1">
         <div className="logo d-flex">
           <div className="slogan">
             <p>DEUS DE MISSÕES</p>
@@ -14,7 +14,7 @@ function BodyIndex() {
           </div>
           <img src={Logo} alt="" />
         </div>
-      </div>
+      </section>
 
 
       <div id="orar"></div>
@@ -24,15 +24,15 @@ function BodyIndex() {
           <hr className="mt-0" />
           <cite className=" text-center">Passa a macedônia e ajuda-nos <br />(Atos 16:9)
           </cite>
-          <hr />
         </div>
 
+        <TestifyBlock />
+
         <div className="bg-transparent text-center">
-          <hr />
           <h1 className="title-grid pt-2 pb-2">Como posso contribuir?</h1>
           <hr />
         </div>
-        <div id="doar" className="d-flex justify-content-center align-items-center sec-def">
+        <section id="doar" className="d-flex justify-content-center align-items-center sec-def">
           <div className="d-flex justify-content-center align-items-center bg-2 rounded-3  animate__animated animate__flipInX">
             <div className="container align-items-center">
               <div className="row gx-2 text-center">
@@ -63,7 +63,7 @@ function BodyIndex() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <div className="text-center bg-transparent paragrafo fs-3">
           <hr className="mt-0" />
           <cite className="d-flex text-center">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo
@@ -73,7 +73,7 @@ function BodyIndex() {
         </div>
       </div>
 
-      <div className="bg5">
+      <section className="bg5">
         <div className="space"></div>
         <div className="d-flex justify-content-center align-items-center sec-def pt-3">
           <div className="bg-2 rounded-3 d-flex justify-content-center align-items-center animate__animated animate__flipInX">
@@ -114,9 +114,9 @@ function BodyIndex() {
 
         </div>
         <div className="space"></div>
-      </div>
+      </section>
 
-    </div>
+    </main>
   )
 }
 export default BodyIndex

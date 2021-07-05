@@ -300,7 +300,8 @@ const MISSIONARY = [{
     plantar uma nova Igreja em outra cidade em trabalho
     Batista.`,
   link: require('./pages/francivaldo e joene - página missionários.pdf').default,
-  img: require('./fotos/francivaldo.png').default
+  img: require('./fotos/francivaldo.png').default,
+  letter: [require('./letters/francivaldo.pdf').default]
 
 },
 {
@@ -466,7 +467,9 @@ const MISSIONARY = [{
     America Mission Board) e LBA (Lanier Baptist
     Association).`,
   link: require('./pages/james e vanessa farias - página missionários.pdf').default,
-  img: require('./fotos/james-vanessa.png').default
+  img: require('./fotos/james-vanessa.png').default,
+  letter: [require('./letters/jamesfaria.pdf').default]
+
 
 },
 {

@@ -7,7 +7,7 @@ import ScrollToTop from './Support/ScrollToTop';
 
 function Navbar() {
   return (
-    <div className="navbar navbar-expand-lg navbar-light bg-light-nav ">
+    <header className="navbar navbar-expand-lg navbar-light bg-light-nav ">
       <div className="container-fluid d-flex justify-content-between  bg-light-nav">
         <div className="m-2">
           <Link className="navbar-brand align-middle" to="/" href="#sonhos" onClick={ScrollToTop}>
@@ -59,7 +59,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   )
 }
 

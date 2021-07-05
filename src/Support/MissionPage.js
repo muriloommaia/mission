@@ -12,7 +12,6 @@ function MissionPage({ MISSIONARY, PROJECT }) {
     SetCards(filteredMiss)
   }
 
-
   return (
     <div className="container-fluid">
       {/* <div className="space"></div> */}
@@ -37,7 +36,7 @@ function MissionPage({ MISSIONARY, PROJECT }) {
             <div className="d-grid  justify-content-center">
               {Cards.map((item, idx) => {
                 return (<>
-                  <div key="{idx}" className="cards rounded-3 bg-card">
+                  <div key={idx} className="cards rounded-3 bg-card">
                     <img className="border border-2 border-secondary" src={Cards[idx].img} alt={Cards[idx].name} />
                     <h4 className="paragrafo fs-3 mt-2 fw-bold">{Cards[idx].name}</h4>
                     {/* <p className="paragrafo mt-4 mb-0 fs-5"><strong>Local de atuação: </strong></p>
