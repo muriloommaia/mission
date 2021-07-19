@@ -12,6 +12,7 @@ import {
   // Link
 } from "react-router-dom";
 import MissionTools from './Support/MissionTools'
+import MissionCartas from './Support/lettersPage/MissionCartas'
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/tools">
           <MissionTools />
+        </Route>
+        <Route path="/letters">
+          <MissionCartas />
         </Route>
         <Route path="/">
           <BodyIndex />

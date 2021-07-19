@@ -21,7 +21,7 @@ function TestifyBlock() {
     <section className="testify ">
     <hr />
       <h2 className="title text-center py-4">Saiba por quem orar</h2>
-      <div className="d-gridTest  justify-content-center text-center pt-3">
+      <div className="d-gridTest justify-content-center text-center pt-3">
         {array.map((item, idx) => {
           return (
             <div key={idx} className="cardsTest">

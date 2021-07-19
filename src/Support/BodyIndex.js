@@ -65,7 +65,7 @@ function BodyIndex() {
 
         <div className="text-center bg-transparent paragrafo fs-3">
           <hr className="mt-0" />
-          <cite className="d-flex text-center pb-4">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo
+          <cite className="d-flex text-center pb-4 versiculo">Resisti-lhe, permanecendo firmes na fé, conscientes de que os irmãos que tendes em todo o mundo
             estão atravessando os mesmos sofrimentos <br />(1 Pedro 5:9)
           </cite>
         </div>
