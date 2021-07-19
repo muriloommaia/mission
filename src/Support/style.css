@@ -19,7 +19,21 @@
   margin-left: 5%;
   margin-right: 5%;
 }
-
+@media (min-width: 1400px) {
+  .d-gridTest {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, auto));
+    grid-gap: 25px;
+    width: 1500px;
+    margin: auto;
+  }
+}
 .testify {
   background-color: whitesmoke;
+}
+
+.versiculo {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
 }

@@ -1,0 +1,28 @@
+.container-carta:nth-child(odd) {
+    background-color: rgba(182, 182, 182, 0.637);
+}
+
+.container-carta {
+    align-items: center;
+    padding: 10px;
+}
+
+.container-carta p {
+    margin: 0;
+}
+
+.container-carta a {
+    text-decoration: none;
+}
+
+.titleCartas {
+    font-weight: bold;
+}
+
+.titulo {
+    margin: 45px;
+}
+
+.container-page {
+    margin-bottom: 25px;
+}

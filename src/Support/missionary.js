@@ -26,7 +26,6 @@ const MISSIONARY = [{
     candidatos ao campo missionário da Igreja.`,
   link: require('./pages/djalma-e-sandra-página-missionários.pdf').default,
   img: require('./fotos/djalma.png').default,
-  letter: [require('./letters/maio21djalma.pdf').default]
 },
 {
   name: "Maria Aparecida (CIDINHA)",
@@ -301,7 +300,7 @@ const MISSIONARY = [{
     Batista.`,
   link: require('./pages/francivaldo e joene - página missionários.pdf').default,
   img: require('./fotos/francivaldo.png').default,
-  letter: [require('./letters/francivaldo.pdf').default]
+  
 
 },
 {
@@ -468,8 +467,7 @@ const MISSIONARY = [{
     Association).`,
   link: require('./pages/james e vanessa farias - página missionários.pdf').default,
   img: require('./fotos/james-vanessa.png').default,
-  letter: [require('./letters/jamesfaria.pdf').default]
-
+  
 
 },
 {
