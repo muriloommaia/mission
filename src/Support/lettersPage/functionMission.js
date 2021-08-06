@@ -4,7 +4,6 @@ function FunctionMission(element) {
   const mes = elemento[0];
   const missionario = elemento[2];
   const arquivo = elemento[1];
-  console.log(elemento)
   return (
     <div className="d-flex justify-content-around flex-wrap container-carta">
       <div className="col-12 col-sm-4">
