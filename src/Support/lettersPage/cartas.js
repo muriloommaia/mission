@@ -1,4 +1,7 @@
 const CARTAS = [
+  ['Novembro', require('./letters/11-novembro/francivaldo.pdf').default, "Francivaldo e Joene"],
+  ['Outubro', require('./letters/10-outubro/jamesFarias.pdf').default, "Família Farías"],
+  ['Setembro', require('./letters/09-setembro/djalma.pdf').default, "Djalma e Sandra Albuquerque"],
   ['Setembro', require('./letters/09-setembro/projetoCross.pdf').default, "Hoang e Kim"],
   ['Agosto', require('./letters/08-agosto/francivaldoJoene.pdf').default, "Francivaldo e Joene"],
   ['Agosto', require('./letters/08-agosto/familiaAlbuquerque.pdf').default, "Djalma e Sandra Albuquerque"],
