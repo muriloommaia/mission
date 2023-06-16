@@ -1,6 +1,4 @@
-
-
-function Footer() {
+export const Footer = () => {
   return (
     <div>
       <div className="footer">
@@ -9,11 +7,18 @@ function Footer() {
             <h3 className="title color-footer text-center">Fale Conosco</h3>
             <p className="footer-text m-0 text-center">
               contato: <br />
-              |67| 9 9974-8261 || djalma@1b.org.br</p>
+              |67| 9 9974-8261 || djalma@1b.org.br
+            </p>
             <div className="d-flex justify-content-between">
-              <a href="#as"><i className="fab fa-whatsapp"></i></a>
-              <a href="#as"><i className="fab fa-instagram"></i></a>
-              <a href="#as"><i className="fab fa-facebook"></i></a>
+              <a href="#as">
+                <i className="fab fa-whatsapp"></i>
+              </a>
+              <a href="#as">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#as">
+                <i className="fab fa-facebook"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -23,7 +28,10 @@ function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <span>Copyright © 2021, All Right Reserved <br />by Murilo Maia</span>
+              <span>
+                Copyright © 2021, All Right Reserved <br />
+                by Murilo Maia
+              </span>
             </div>
             <div className="col-md-6">
               <div className="copyright-menu">
@@ -47,10 +55,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-
-
-
-export default Footer
+export default Footer;
