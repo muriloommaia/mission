@@ -1,9 +1,9 @@
-import "./css/styleCartas.css"
-import CARTAS from './cartas'
-import FunctionMission from "./functionMission";
+import "./css/styleCartas.css";
+import CARTAS from "./lettersPage/cartas";
+import FunctionMission from "./lettersPage/functionMission";
+import { Fragment } from "react";
 
-function MissionCartas() {
-
+export const MissionLetters = () => {
   return (
     <div className="text-center container-page">
       <div className="space"></div>
@@ -18,15 +18,16 @@ function MissionCartas() {
         </div>
         <div className="d-flex flex-column">
           {CARTAS.map((element, index) => {
-            return <FunctionMission element={element} />
+            return (
+              <Fragment key={index}>
+                <FunctionMission element={element} />
+              </Fragment>
+            );
           })}
-
         </div>
       </div>
     </div>
-  )
+  );
+};
 
-}
-
-
-export default MissionCartas;
+export default MissionLetters;

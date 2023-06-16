@@ -5,14 +5,14 @@ import './style.css'
 
 function TestifyBlock() {
   const lengthMissionary = MISSIONARY.length - 1;
-  function ramdonNumber() {
+  function randomNumber() {
     return Math.ceil(Math.random() * lengthMissionary);
   }
   let array = [];
       do {
-        array[1] = MISSIONARY[ramdonNumber()]
-        array[2] = MISSIONARY[ramdonNumber()]
-        array[0] = MISSIONARY[ramdonNumber()]
+        array[1] = MISSIONARY[randomNumber()]
+        array[2] = MISSIONARY[randomNumber()]
+        array[0] = MISSIONARY[randomNumber()]
 
       } while(array[0] === array[1] || array[1] === array[2] || array[0] === array[2]) 
 

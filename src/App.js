@@ -1,8 +1,6 @@
-import BodyIndex from './Support/BodyIndex'
-import Footer from './Support/Footer'
+import BodyIndex from './Pages/Home/BodyIndex'
 import Navbar from './Navbar'
 import './style.css'
-import MissionPage from './Support/MissionPage'
 import MISSIONARY from './Support/missionary'
 import PROJECT from './Support/project'
 import {
@@ -11,8 +9,8 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import MissionTools from './Support/MissionTools'
-import MissionCartas from './Support/lettersPage/MissionCartas'
+import { MissionPage, MissionTools, MissionLetters } from './Pages'
+import { Footer } from './Components'
 
 
 function App() {
@@ -27,7 +25,7 @@ function App() {
           <MissionTools />
         </Route>
         <Route path="/letters">
-          <MissionCartas />
+          <MissionLetters />
         </Route>
         <Route path="/">
           <BodyIndex />
