@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import TestifyBlock from "../../Support/TestifyBlock";
 import Logo from "../../imgs/logo-only.png";
-import ScrollToTop from "../../Support/ScrollToTop";
+import { TestifyBlock } from "../../Components";
+import { ScrollToTop } from "../../utils";
 
-const BodyIndex = () => {
+export const BodyIndex = () => {
   return (
     <main id="home">
       <section className="d-flex justify-content-center sec bg-1">
