@@ -16,18 +16,18 @@ const MISSIONARY = [
     img: require("./fotos/Afonsil-e-dalva.png").default,
   },
   {
-    name: "Djalma e Sandra",
-    local: "Campo Grande - MS",
-    email: "djalma@1b.org.br",
-    resumo: `É o responsável pelo Ministério de Missões da
-    Primeira Igreja Batista de Campo Grande.
-    Coordena e supervisiona os trabalhos
-    missionários apoiados pela Igreja, junto ao
-    Conselho Missionário. É responsável pelos
-    candidatos ao campo missionário da Igreja.`,
-    link: require("./pages/djalma-e-sandra-página-missionários.pdf").default,
-    img: require("./fotos/djalma.png").default,
-  },
+  //   name: "Djalma e Sandra",
+  //   local: "Campo Grande - MS",
+  //   email: "djalma@1b.org.br",
+  //   resumo: `É o responsável pelo Ministério de Missões da
+  //   Primeira Igreja Batista de Campo Grande.
+  //   Coordena e supervisiona os trabalhos
+  //   missionários apoiados pela Igreja, junto ao
+  //   Conselho Missionário. É responsável pelos
+  //   candidatos ao campo missionário da Igreja.`,
+  //   link: require("./pages/djalma-e-sandra-página-missionários.pdf").default,
+  //   img: require("./fotos/djalma.png").default,
+  // },
   {
     name: "Maria Aparecida (CIDINHA)",
     local: "Campo Grande - MS",
